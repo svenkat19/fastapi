@@ -7,3 +7,7 @@ def root():
 @app.get("/post")
 def poster():
     return "I am posting darling"
+
+@app.post("/createpost")
+def createpost():
+    return "success"
